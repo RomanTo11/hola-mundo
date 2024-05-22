@@ -1,2 +1,2 @@
 # hola-mundo
-me gustaprogramar soy adicto al codigo 
+Quiero ser programador 
