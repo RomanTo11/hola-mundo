@@ -1,0 +1,34 @@
+# Caso de Cyber Attack
+## Ataque Stuxnet
+**¿Qué es el virus Stuxnet?**
+*Stuxnet considerada como la primera arma digital de la historia, es un programa i
+informático que se hizo famoso por ser uno de los primeros programas maliciosos
+conocidos en atacar sistemas de control industrial, específicamente sistemas de supervisión
+y adquisición de datos SCADA (Supervisory Control And Data Acquisition) y controladores
+lógicos programables (PLC). Fue descubierto en 2010 y se cree que fue desarrollado por
+una combinación de agencias de inteligencia de Estados Unidos e Israel*
+**Objetivos**
+*El objetivo principal de Stuxnet era sabotear el programa nuclear de Irán al
+infiltrarse en sus sistemas informáticos y causar daños (autodestrucción) en las
+centrifugadoras utilizadas para enriquecer uranio y retrasar esta producción de uranio.*
+**Causas**
+*Stuxnet se extendió al explotar múltiples debilidades de seguridad en el software de
+Microsoft Windows y los controladores de dispositivos empleados en sistemas SCADA. Los
+perpetradores emplearon métodos avanzados de ingeniería inversa y aprovechamiento de
+vulnerabilidades para crear este malware.*
+**Consecuencias**
+*Stuxnet logró su objetivo al causar daños significativos en las centrifugadoras de las
+instalaciones nucleares de Irán, retrasando su programa nuclear, esto lo haría a través de
+dejar prácticamente inservibles una gran cantidad de las de 3,000 centrífugas Siemens
+S7-315 que eran necesarios para esta labor.y causando un revuelo internacional. Sin
+embargo, también demostró el potencial de los ciberataques para causar daños físicos en
+infraestructuras críticas*
+##¿Cómo operó este gusano informático para realizar este ataque?
+**Infiltración de Stuxnet en la red**
+*De acuerdo con la empresa de seguridad cibernética Symantec, es probable que Stuxnet haya ingresado al programa nuclear de Natanz en Irán a través de una memoria USB infectada. Alguien tuvo que haber insertado físicamente el USB en una computadora conectada a la red, permitiendo así que el gusano se infiltrara en el sistema informático de la planta.*
+**Propagación del gusano a través de las computadoras **
+*Una vez dentro del sistema, Stuxnet comenzó a buscar el software que controla las centrifugadoras. Estas máquinas giran a altas velocidades para separar componentes. En la planta de Natanz, las centrifugadoras estaban separando diferentes tipos de uranio para obtener uranio enriquecido, esencial tanto para la producción de energía como para armamento nuclear.*
+**Reprogramación de las centrifugadoras por Stuxnet **
+*El gusano encontró el software que controla las centrifugadoras y se introdujo en él, tomando el control de las máquinas. Stuxnet ejecutó dos tipos de ataques. Primero, hizo que las centrifugadoras giraran a una velocidad peligrosamente alta durante unos 15 minutos antes de volver a la velocidad normal. Aproximadamente un mes después, las desaceleró durante unos 50 minutos. Esto se repitió en varias ocasiones durante varios meses.*
+** Destrucción de las máquinas**
+*Con el tiempo, la tensión causada por las velocidades extremas hizo que las máquinas infectadas, alrededor de 1000, se desintegraran. Durante el ciberataque, aproximadamente el 20 por ciento de las centrifugadoras en la planta de Natanz quedaron fuera de servicio*
